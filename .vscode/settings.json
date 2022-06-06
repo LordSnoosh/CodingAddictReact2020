@@ -1,0 +1,8 @@
+{
+  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "workbench.preferredHighContrastColorTheme": "Kimbie Dark",
+  "workbench.preferredHighContrastLightColorTheme": "Solarized Light",
+  "editor.autoClosingQuotes": "always",
+  "editor.formatOnType": true
+}

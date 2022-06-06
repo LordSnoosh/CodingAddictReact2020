@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: rgb(224, 214, 199);
+  color: whitesmoke;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+  }
+}
+
+.bookItem {
+  background: rgb(241, 219, 156);
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+}
+.bookItem h1 {
+  color: rgb(117, 89, 89);
+}
+.bookItem h4 {
+  color: rgb(8, 8, 8);
+  font-family: 'Times New Roman', Times, serif;
+}
+.bookItem p {
+  margin-top: 0.5rem;
+}
+
+.bookImage {
+  border-radius: 4rem;
+  padding: 1rem 2rem;
+  background: rgb(82, 74, 63);
+}
